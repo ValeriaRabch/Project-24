@@ -58,6 +58,9 @@ public:
 	char* GetData() {
 		return data;
 	}
+	char* GetNumber() {
+		return number;
+	}
 };
 
 int main() {
