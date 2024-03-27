@@ -91,6 +91,7 @@ int main() {
 	cout << "Enter father"; cin >> c;
 
 	people.SetNSF(a, b, c);
+	cout << people.GetName();
 
 	return 0;
 }
