@@ -55,6 +55,9 @@ public:
 	char* GetFather() {
 		return father;
 	}
+	char* GetData() {
+		return data;
+	}
 };
 
 int main() {
