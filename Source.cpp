@@ -67,6 +67,9 @@ public:
 	char* GetCountry() {
 		return country;
 	}
+	char* GetNameSchool() {
+		return nameschool;
+	}
 };
 
 int main() {
