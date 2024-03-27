@@ -73,6 +73,9 @@ public:
 	char* GetCitySchool() {
 		return cityschool;
 	}
+	char* GetCountrySchool() {
+		return countryschool;
+	}
 };
 
 int main() {
