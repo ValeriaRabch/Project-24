@@ -61,6 +61,9 @@ public:
 	char* GetNumber() {
 		return number;
 	}
+	char* GetCity() {
+		return city;
+	}
 };
 
 int main() {
