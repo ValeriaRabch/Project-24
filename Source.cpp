@@ -49,6 +49,9 @@ public:
 	char* GetName() {
 		return name;
 	}
+	char* GetSurname() {
+		return surname;
+	}
 };
 
 int main() {
