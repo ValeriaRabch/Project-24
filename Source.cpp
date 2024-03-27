@@ -30,6 +30,9 @@ public:
 	void SetData(char* _data) {
 		strcpy(data, _data);
 	}
+	void SetNumber(char* _number) {
+		strcpy(number, _number);
+	}
 };
 
 int main() {
