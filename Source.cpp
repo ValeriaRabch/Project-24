@@ -22,8 +22,10 @@ public:
 		strcpy(countryschool, "");
 		numbergroup = 0;
 	}
-	void SetName(char* _name) {
-		_name = name;
+	void SetNSF(char* _name, char* _surname, char* _father) {
+		strcpy(name, _name);
+		strcpy(surname, _surname);
+		strcpy(father, _father);
 	}
 };
 
