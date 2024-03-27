@@ -42,6 +42,9 @@ public:
 		strcpy(cityschool, _citysch);
 		strcpy(countryschool, _countrysch);
 	}
+	void SetNumberGroup(int _numbergroup) {
+		numbergroup = _numbergroup;
+	}
 };
 
 int main() {
