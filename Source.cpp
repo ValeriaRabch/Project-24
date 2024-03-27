@@ -33,6 +33,10 @@ public:
 	void SetNumber(char* _number) {
 		strcpy(number, _number);
 	}
+	void SetSC(char* _city, char* _country) {
+		strcpy(city, _city);
+		strcpy(country, _country);
+	}
 };
 
 int main() {
