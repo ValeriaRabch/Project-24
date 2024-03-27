@@ -27,6 +27,9 @@ public:
 		strcpy(surname, _surname);
 		strcpy(father, _father);
 	}
+	void SetData(char* _data) {
+		strcpy(data, _data);
+	}
 };
 
 int main() {
