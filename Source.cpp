@@ -33,9 +33,14 @@ public:
 	void SetNumber(char* _number) {
 		strcpy(number, _number);
 	}
-	void SetSC(char* _city, char* _country) {
+	void SetCC(char* _city, char* _country) {
 		strcpy(city, _city);
 		strcpy(country, _country);
+	}
+	void SetNCC(char* _namesch, char* _citysch, char* _countrysch) {
+		strcpy(nameschool, _namesch);
+		strcpy(cityschool, _citysch);
+		strcpy(countryschool, _countrysch);
 	}
 };
 
