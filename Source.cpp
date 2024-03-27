@@ -70,6 +70,9 @@ public:
 	char* GetNameSchool() {
 		return nameschool;
 	}
+	char* GetCitySchool() {
+		return cityschool;
+	}
 };
 
 int main() {
