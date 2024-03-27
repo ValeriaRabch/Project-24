@@ -79,6 +79,19 @@ public:
 	int GetNumberGroup() {
 		return numbergroup;
 	}
+	void Print() {
+		cout << "Name - " << name;
+		cout << "Surname - " << surname;
+		cout << "Father - " << father;
+		cout << "Dara - " << data;
+		cout << "Number - " << number;
+		cout << "City - " << city;
+		cout << "Country - " << country;
+		cout << "School name - " << nameschool;
+		cout << "City where located school - " << cityschool;
+		cout << "Country where located school - " << countryschool;
+		cout << "Number group - " << numbergroup;
+	}
 };
 
 int main() {
