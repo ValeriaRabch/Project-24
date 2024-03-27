@@ -52,6 +52,9 @@ public:
 	char* GetSurname() {
 		return surname;
 	}
+	char* GetFather() {
+		return father;
+	}
 };
 
 int main() {
