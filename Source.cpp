@@ -46,6 +46,9 @@ public:
 	void SetNumberGroup(int _numbergroup) {
 		numbergroup = _numbergroup;
 	}
+	char* GetName() {
+		return name;
+	}
 };
 
 int main() {
