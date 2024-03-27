@@ -80,17 +80,17 @@ public:
 		return numbergroup;
 	}
 	void Print() {
-		cout << "Name - " << name;
-		cout << "Surname - " << surname;
-		cout << "Father - " << father;
-		cout << "Dara - " << data;
-		cout << "Number - " << number;
-		cout << "City - " << city;
-		cout << "Country - " << country;
-		cout << "School name - " << nameschool;
-		cout << "City where located school - " << cityschool;
-		cout << "Country where located school - " << countryschool;
-		cout << "Number group - " << numbergroup;
+		cout << "Name - " << name << endl;
+		cout << "Surname - " << surname << endl;
+		cout << "Father - " << father << endl;
+		cout << "Dara - " << data << endl;
+		cout << "Number - " << number << endl;
+		cout << "City - " << city << endl;
+		cout << "Country - " << country << endl;
+		cout << "School name - " << nameschool << endl;
+		cout << "City where located school - " << cityschool << endl;
+		cout << "Country where located school - " << countryschool << endl;
+		cout << "Number group - " << numbergroup << endl;
 	}
 };
 
@@ -99,12 +99,12 @@ int main() {
 	Student people;
 	char a[20], b[20], c[20];
 
-	cout << "Enter name"; cin >> a;
-	cout << "Enter surname"; cin >> b;
-	cout << "Enter father"; cin >> c;
-
+	cout << "Enter name "; cin >> a;
+	cout << "Enter surname "; cin >> b;
+	cout << "Enter father "; cin >> c;
 	people.SetNSF(a, b, c);
-	cout << people.GetName();
+
+	people.Print();
 
 	return 0;
 }
