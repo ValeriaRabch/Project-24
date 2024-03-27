@@ -96,15 +96,5 @@ public:
 
 int main() {
 
-	Student people;
-	char a[20], b[20], c[20];
-
-	cout << "Enter name "; cin >> a;
-	cout << "Enter surname "; cin >> b;
-	cout << "Enter father "; cin >> c;
-	people.SetNSF(a, b, c);
-
-	people.Print();
-
 	return 0;
 }
