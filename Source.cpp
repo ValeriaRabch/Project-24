@@ -64,6 +64,9 @@ public:
 	char* GetCity() {
 		return city;
 	}
+	char* GetCountry() {
+		return country;
+	}
 };
 
 int main() {
