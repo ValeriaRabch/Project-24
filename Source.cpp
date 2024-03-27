@@ -76,6 +76,9 @@ public:
 	char* GetCountrySchool() {
 		return countryschool;
 	}
+	int GetNumberGroup() {
+		return numbergroup;
+	}
 };
 
 int main() {
