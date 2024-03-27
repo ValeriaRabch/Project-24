@@ -1,3 +1,4 @@
+#define _CRT_SECURE_NO_WARNINGS
 #include<iostream>
 using namespace std;
 
@@ -48,6 +49,15 @@ public:
 };
 
 int main() {
+
+	Student people;
+	char a[20], b[20], c[20];
+
+	cout << "Enter name"; cin >> a;
+	cout << "Enter surname"; cin >> b;
+	cout << "Enter father"; cin >> c;
+
+	people.SetNSF(a, b, c);
 
 	return 0;
 }
